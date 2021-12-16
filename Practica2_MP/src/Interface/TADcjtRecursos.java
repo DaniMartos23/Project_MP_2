@@ -1,7 +1,6 @@
 package Interface;
 
 import java.util.Date;
-import java.util.List;
 
 public interface TADcjtRecursos {
 	/**
@@ -37,12 +36,12 @@ public interface TADcjtRecursos {
 	 * @param recurs
 	 * @return llista_usuaris
 	 */
-	List<String> usuaris_consulta(String recurs);
+	String[] usuaris_consulta(String recurs);
 	
 	/**
 	 * 
 	 */
-	List<String> usuaris_consulta(String recurs,Date date);
+	String[] usuaris_consulta(String recurs,Date date);
 	
 	/**
 	 * 
