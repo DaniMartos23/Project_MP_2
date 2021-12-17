@@ -3,8 +3,11 @@ package Aplicació;
 import java.util.Date;
 
 import Interface.TADcjtRecursos;
+import Aplicació.Dades;
 
 public class Recursos_static implements TADcjtRecursos {
+	
+	private Dades[] info;
 
 	@Override
 	public int afegir_Dades(String recurs, String usuari, Date date) {
