@@ -8,6 +8,12 @@ public class Dades {
 	private String recurs;
 	private Date data;
 	
+	
+	public Dades(String usuari, String recurs, Date data) {
+		this.usuari = usuari;
+		this.recurs = recurs;
+		this.data = data;
+	}
 	public String getUsuari() {
 		return usuari;
 	}
